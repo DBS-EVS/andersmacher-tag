@@ -6065,6 +6065,32 @@
          "tilecount":1024,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":128,
+         "firstgid":39261,
+         "image":"tilesets\/Tilesets\/dbs_decoration.png",
+         "imageheight":1248,
+         "imagewidth":4096,
+         "margin":0,
+         "name":"dbs_decoration",
+         "spacing":0,
+         "tilecount":4992,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":65,
+         "firstgid":44253,
+         "image":"tilesets\/Tilesets\/dbs_furniture.png",
+         "imageheight":1472,
+         "imagewidth":2080,
+         "margin":0,
+         "name":"dbs_furniture",
+         "spacing":0,
+         "tilecount":2990,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
