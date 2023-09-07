@@ -1333,17 +1333,6 @@
                  "width":399.64,
                  "x":2462.83333333333,
                  "y":1913.33333333333
-                }, 
-                {
-                 "height":108,
-                 "id":83,
-                 "name":"popUpGif",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":363.64,
-                 "x":1361.33333333333,
-                 "y":386.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
