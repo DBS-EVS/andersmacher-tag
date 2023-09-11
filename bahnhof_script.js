@@ -12,7 +12,7 @@ var urlTutorial = "https://web.microsoftstream.com/embed/video/ca24bcea-3cab-487
 var zoneTutorial = "tutorial";
 
 var popUpStart = "popUpStart";
-var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Marktstände, Workshops oder unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachern im Konzern!\n";
+var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachern im Konzern!\n";
 var popUpEmail = "popUpEmail";
 var mailMsg = "Bingo? Sende uns deine Bilder um zu gewinnen!";
 var mailToEvs = "mailto:SendIn.Enterprise.VoIP.Services@deutschebahn.com?subject=WA-Mail";
