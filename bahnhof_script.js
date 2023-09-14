@@ -10,6 +10,7 @@ var currentPopup = undefined;
 var isCoWebSiteOpened =  false;
 var urlTutorial = "https://web.microsoftstream.com/embed/video/ca24bcea-3cab-4878-8b34-65e6bf87939f?autoplay=true";
 var zoneTutorial = "tutorial";
+var urlWorkshops ="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=nC2noeZJbU-a9lqvoRg7_T_PQMu9r7FKreE1lYkkCDNUOUZFRExQNTVYUDA5NE9MUFlPU1Y3MEdEWC4u&Token=b16e1aa985234a7b9305b097bd68d904"
 
 var popUpStart = "popUpStart";
 var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachern im Konzern!\n";
@@ -59,8 +60,65 @@ WA.room.onLeaveLayer("start_zone").subscribe(() => {
     closePopUp();
 })
  
-)
  
+WA.room.area.onEnter("brunnen1").subscribe(() => {
+    currentPopup =  WA.ui.openPopup(popUp_icebreaker1,"Icebreaker gefällig?\n
+    Was ist der nutzloseste Fakt, den du kennst?\n
+    Wie motivierst du dich für schwierige Aufgaben?\n
+    Was sind deine liebsten Aktivitäten fürs Teambuilding?",
+    [
+        {
+            label: "Danke!",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+        ]);
+});
+
+
+WA.room.area.onEnter("brunnen2").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_icebreaker2","Icebreaker gefällig?\nÜber welches Thema könntest du unvorbereitet eine Präsentation halten?\nWelche Musik hörst du am liebsten bei der Arbeit?\nWer ist die klügste Person bei der Arbeit, die du kennst?",
+    [
+        {
+            label: "Danke!",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+        ]);
+});
+
+WA.room.area.onEnter("brunnen3").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_icebreaker3","Icebreaker gefällig?\n
+    Was gefällt dir am meisten an deinem Job?\n
+    Was war der beste Rat, den du jemals erhalten hast?\n
+    Hast du jemals eine Nachricht an eine falsche Person gesendet?",
+    [
+        {
+            label: "Danke!",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+        ]);
+});
+
+
+WA.room.area.onEnter("workshoparea").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("","Willkommen in der Workshop-Area!\nAn jedem Stand findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbilde anschauen.\n Viel Spaß!",
+    [
+        {
+            label: "Übersicht Workshops",
+            callback: (popup => {
+                WA.nav.openCoWebSite(urlWorkshops)
+                isCoWebSiteOpened = true;
+                closePopUp();
+            })
+        }
+        ]);
+});
+
 
 WA.room.onEnterLayer("ticket_program").subscribe(() => {
    currentPopup =  WA.ui.openPopup("popUpTicket","Mitarbeiterfahrkarten bestellen?",[
