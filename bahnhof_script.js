@@ -62,7 +62,7 @@ WA.room.onLeaveLayer("start_zone").subscribe(() => {
  
  
 WA.room.area.onEnter("brunnen1").subscribe(() => {
-    currentPopup =  WA.ui.openPopup(popUp_icebreaker1,"Icebreaker gefällig?\nWas ist der nutzloseste Fakt, den du kennst?\nWie motivierst du dich für schwierige Aufgaben?\nWas sind deine liebsten Aktivitäten fürs Teambuilding?",
+    currentPopup =  WA.ui.openPopup("popUp_icebreaker1","Icebreaker gefällig?\nWas ist der nutzloseste Fakt, den du kennst?\nWie motivierst du dich für schwierige Aufgaben?\nWas sind deine liebsten Aktivitäten fürs Teambuilding?",
     [
         {
             label: "Danke!",
@@ -100,7 +100,7 @@ WA.room.area.onEnter("brunnen3").subscribe(() => {
 
 
 WA.room.area.onEnter("workshoparea").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("workshoparea","Willkommen in der Workshop-Area!\nAn jedem Stand findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbilde anschauen.\n Viel Spaß!",
+    currentPopup =  WA.ui.openPopup("popUp_workshop","Willkommen in der Workshop-Area!\nAn jedem Stand findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbilde anschauen.\n Viel Spaß!",
     [
         {
             label: "Übersicht Workshops",
