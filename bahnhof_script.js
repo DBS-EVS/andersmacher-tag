@@ -62,10 +62,7 @@ WA.room.onLeaveLayer("start_zone").subscribe(() => {
  
  
 WA.room.area.onEnter("brunnen1").subscribe(() => {
-    currentPopup =  WA.ui.openPopup(popUp_icebreaker1,"Icebreaker gefällig?\n
-    Was ist der nutzloseste Fakt, den du kennst?\n
-    Wie motivierst du dich für schwierige Aufgaben?\n
-    Was sind deine liebsten Aktivitäten fürs Teambuilding?",
+    currentPopup =  WA.ui.openPopup(popUp_icebreaker1,"Icebreaker gefällig?\nWas ist der nutzloseste Fakt, den du kennst?\nWie motivierst du dich für schwierige Aufgaben?\nWas sind deine liebsten Aktivitäten fürs Teambuilding?",
     [
         {
             label: "Danke!",
