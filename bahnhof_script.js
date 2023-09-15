@@ -90,10 +90,7 @@ WA.room.area.onEnter("brunnen2").subscribe(() => {
 });
 
 WA.room.area.onEnter("brunnen3").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_icebreaker3","Icebreaker gefällig?\n
-    Was gefällt dir am meisten an deinem Job?\n
-    Was war der beste Rat, den du jemals erhalten hast?\n
-    Hast du jemals eine Nachricht an eine falsche Person gesendet?",
+    currentPopup =  WA.ui.openPopup("popUp_icebreaker3","Icebreaker gefällig?\nWas gefällt dir am meisten an deinem Job?\nWas war der beste Rat, den du jemals erhalten hast?\nHast du jemals eine Nachricht an eine falsche Person gesendet?",
     [
         {
             label: "Danke!",
