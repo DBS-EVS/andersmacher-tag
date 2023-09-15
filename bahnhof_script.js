@@ -10,7 +10,7 @@ var currentPopup = undefined;
 var isCoWebSiteOpened =  false;
 var urlTutorial = "https://web.microsoftstream.com/embed/video/ca24bcea-3cab-4878-8b34-65e6bf87939f?autoplay=true";
 var zoneTutorial = "tutorial";
-var urlWorkshops ="https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=nC2noeZJbU-a9lqvoRg7_T_PQMu9r7FKreE1lYkkCDNUOUZFRExQNTVYUDA5NE9MUFlPU1Y3MEdEWC4u&Token=b16e1aa985234a7b9305b097bd68d904"
+var urlWorkshops ="https://forms.office.com/e/6TJFjRLc4D"
 
 var popUpStart = "popUpStart";
 var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachern im Konzern!\n";
