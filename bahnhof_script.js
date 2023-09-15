@@ -106,7 +106,7 @@ WA.room.area.onEnter("brunnen3").subscribe(() => {
 
 
 WA.room.area.onEnter("workshoparea").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("","Willkommen in der Workshop-Area!\nAn jedem Stand findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbilde anschauen.\n Viel Spaß!",
+    currentPopup =  WA.ui.openPopup("workshoparea","Willkommen in der Workshop-Area!\nAn jedem Stand findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbilde anschauen.\n Viel Spaß!",
     [
         {
             label: "Übersicht Workshops",
