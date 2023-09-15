@@ -73,6 +73,10 @@ WA.room.area.onEnter("brunnen1").subscribe(() => {
         ]);
 });
 
+WA.room.area.onLeave("brunnen1").subscribe(() => {
+    closePopUp();
+});
+
 
 WA.room.area.onEnter("brunnen2").subscribe(() => {
     currentPopup =  WA.ui.openPopup("popUp_icebreaker2","Icebreaker gefällig?\nÜber welches Thema könntest du unvorbereitet eine Präsentation halten?\nWelche Musik hörst du am liebsten bei der Arbeit?\nWer ist die klügste Person bei der Arbeit, die du kennst?",
@@ -86,6 +90,10 @@ WA.room.area.onEnter("brunnen2").subscribe(() => {
         ]);
 });
 
+WA.room.area.onLeave("brunnen2").subscribe(() => {
+    closePopUp();
+});
+
 WA.room.area.onEnter("brunnen3").subscribe(() => {
     currentPopup =  WA.ui.openPopup("popUp_icebreaker3","Icebreaker gefällig?\nWas gefällt dir am meisten an deinem Job?\nWas war der beste Rat, den du jemals erhalten hast?\nHast du jemals eine Nachricht an eine falsche Person gesendet?",
     [
@@ -96,6 +104,10 @@ WA.room.area.onEnter("brunnen3").subscribe(() => {
             })
         }
         ]);
+});
+
+WA.room.area.onLeave("brunnen3").subscribe(() => {
+    closePopUp();
 });
 
 
@@ -112,6 +124,11 @@ WA.room.area.onEnter("workshoparea").subscribe(() => {
         }
         ]);
 });
+
+WA.room.area.onLeave("workshoparea").subscribe(() => {
+    closePopUp();
+})
+
 
 
 WA.room.onEnterLayer("ticket_program").subscribe(() => {
