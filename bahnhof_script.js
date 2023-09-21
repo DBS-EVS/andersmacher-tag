@@ -165,7 +165,7 @@ WA.room.area.onEnter("marktplatz1").subscribe(() => {
         ]);
 });
 
-WA.room.area.onLeave("workshoparea").subscribe(() => {
+WA.room.area.onLeave("marktplatz1").subscribe(() => {
     closePopUp();
 })
 
