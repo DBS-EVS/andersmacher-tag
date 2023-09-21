@@ -64,7 +64,7 @@ WA.room.onLeaveLayer("start_zone").subscribe(() => {
 
  
 WA.room.area.onEnter("networking1").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_networking1","Willkommen in unserer Vernetzungszone!/nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake./nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,/n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!/n/nViel Spaß beim vernetzen!",
+    currentPopup =  WA.ui.openPopup("popUp_networking1","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim vernetzen!",
     [
         {
             label: "Danke!",
@@ -81,7 +81,7 @@ WA.room.area.onLeave("networking1").subscribe(() => {
 
 
 WA.room.area.onEnter("networking2").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_networking2","Willkommen in unserer Vernetzungszone!/nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake./nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,/n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!/n/nViel Spaß beim vernetzen!",
+    currentPopup =  WA.ui.openPopup("popUp_networking2","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim vernetzen!",
     [
         {
             label: "Danke!",
