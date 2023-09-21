@@ -11,6 +11,7 @@ var isCoWebSiteOpened =  false;
 var urlTutorial = "https://web.microsoftstream.com/embed/video/ca24bcea-3cab-4878-8b34-65e6bf87939f?autoplay=true";
 var zoneTutorial = "tutorial";
 var urlWorkshops ="https://forms.office.com/e/6TJFjRLc4D"
+var urlMarktstände ="https://forms.office.com/e/6TJFjRLc4D"
 
 var popUpStart = "popUpStart";
 var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachern im Konzern!\n";
@@ -60,9 +61,45 @@ WA.room.onLeaveLayer("start_zone").subscribe(() => {
     closePopUp();
 })
  
+
+ 
+WA.room.area.onEnter("networking1").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_networking1","Willkommen in unserer Vernetzungszone!/nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake./nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,/n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!/n/nViel Spaß beim vernetzen!",
+    [
+        {
+            label: "Danke!",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+        ]);
+});
+
+WA.room.area.onLeave("networking1").subscribe(() => {
+    closePopUp();
+});
+
+
+WA.room.area.onEnter("networking2").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_networking1","Willkommen in unserer Vernetzungszone!/nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake./nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,/n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!/n/nViel Spaß beim vernetzen!",
+    [
+        {
+            label: "Danke!",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+        ]);
+});
+
+WA.room.area.onLeave("networking2").subscribe(() => {
+    closePopUp();
+});
+
+
  
 WA.room.area.onEnter("brunnen1").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_icebreaker1","Icebreaker gefällig?\nWas ist der nutzloseste Fakt, den du kennst?\nWie motivierst du dich für schwierige Aufgaben?\nWas sind deine liebsten Aktivitäten fürs Teambuilding?",
+    currentPopup =  WA.ui.openPopup("popUp_icebreaker1","Icebreaker gefällig?\nWas ist der nutzloseste Fakt, den du kennst?\nWie motivierst du dich für schwierige Aufgaben?\nWas sind deine liebsten Aktivitäten fürs Teambuilding?\n\nViel Spaß beim Kennenlernen weiterer #andersMacher im Konzern!",
     [
         {
             label: "Danke!",
@@ -79,7 +116,7 @@ WA.room.area.onLeave("brunnen1").subscribe(() => {
 
 
 WA.room.area.onEnter("brunnen2").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_icebreaker2","Icebreaker gefällig?\nÜber welches Thema könntest du unvorbereitet eine Präsentation halten?\nWelche Musik hörst du am liebsten bei der Arbeit?\nWer ist die klügste Person bei der Arbeit, die du kennst?",
+    currentPopup =  WA.ui.openPopup("popUp_icebreaker2","Icebreaker gefällig?\nÜber welches Thema könntest du unvorbereitet eine Präsentation halten?\nWelche Musik hörst du am liebsten bei der Arbeit?\nWer ist die klügste Person bei der Arbeit, die du kennst?\n\nViel Spaß beim Kennenlernen weiterer #andersMacher im Konzern!",
     [
         {
             label: "Danke!",
@@ -95,7 +132,7 @@ WA.room.area.onLeave("brunnen2").subscribe(() => {
 });
 
 WA.room.area.onEnter("brunnen3").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_icebreaker3","Icebreaker gefällig?\nWas gefällt dir am meisten an deinem Job?\nWas war der beste Rat, den du jemals erhalten hast?\nHast du jemals eine Nachricht an eine falsche Person gesendet?",
+    currentPopup =  WA.ui.openPopup("popUp_icebreaker3","Icebreaker gefällig?\nWas gefällt dir am meisten an deinem Job?\nWas war der beste Rat, den du jemals erhalten hast?\nHast du jemals eine Nachricht an eine falsche Person gesendet?\n\nViel Spaß beim Kennenlernen weiterer #andersMacher im Konzern!",
     [
         {
             label: "Danke!",
@@ -112,7 +149,7 @@ WA.room.area.onLeave("brunnen3").subscribe(() => {
 
 
 WA.room.area.onEnter("workshoparea").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_workshop","Willkommen in der Workshop-Area!\nAn jedem Stand findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbilde anschauen.\n Viel Spaß!",
+    currentPopup =  WA.ui.openPopup("popUp_workshop","Willkommen in der Workshop-Area!\nAn jeder Workshop-Zone findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbilde anschauen.\n Viel Spaß!",
     [
         {
             label: "Übersicht Workshops",
@@ -128,6 +165,26 @@ WA.room.area.onEnter("workshoparea").subscribe(() => {
 WA.room.area.onLeave("workshoparea").subscribe(() => {
     closePopUp();
 })
+
+
+WA.room.area.onEnter("marktplatz1").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_markt","Willkommen beim Andersmacher-Marktplatz!\nAn jedem Stand findest du ein spannendes Thema unserer Andersmacher!\nSchländere von Markstand zu Marktstand und lerne die spannenden Projekte genauer kennen!\nAn jedem Marktstand findest du genauere Details zum jeweiligen Thema oder du fragst direkt die jeweiligen Andersmacher :)\n Viel Spaß beim Umschauen!",
+    [
+        {
+            label: "Übersicht Marktstände",
+            callback: (popup => {
+                WA.nav.openCoWebSite(urlMarktstände)
+                isCoWebSiteOpened = true;
+                closePopUp();
+            })
+        }
+        ]);
+});
+
+WA.room.area.onLeave("workshoparea").subscribe(() => {
+    closePopUp();
+})
+
 
 
 
