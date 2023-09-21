@@ -39,23 +39,7 @@ const buttons = [
     }
   ]
 
- 
-  WA.room.onEnterLayer("start_zone").subscribe(() => {
-    currentPopup =   WA.ui.openPopup(popUpStart, startMsg,[
-    
-        {
-            label: "OK",
-            callback: (popup => {
-                closePopUp();
-            })
-        }]);
-
-    
-        
-        
-});
-        
-        
+                
 
 WA.room.onLeaveLayer("start_zone").subscribe(() => {
     closePopUp();
