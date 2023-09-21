@@ -161,6 +161,12 @@ WA.room.area.onEnter("marktplatz1").subscribe(() => {
                 isCoWebSiteOpened = true;
                 closePopUp();
             })
+        },
+        {
+            label: "Schließen",
+            callback: (popup => {
+                closePopUp();
+            })
         }
         ]);
 });
