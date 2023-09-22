@@ -13,6 +13,8 @@ var zoneTutorial = "tutorial";
 var urlWorkshops ="https://forms.office.com/e/6TJFjRLc4D"
 var urlMarktstände ="https://forms.office.com/e/6TJFjRLc4D"
 
+var currentWebsite = undefined;
+
 var popUpStart = "popUpStart";
 var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Impulse, Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachenden im Konzern!\n";
 var popUpEmail = "popUpEmail";
@@ -47,7 +49,7 @@ WA.room.onLeaveLayer("start_zone").subscribe(() => {
  
 
 WA.room.area.onEnter("bib").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_Bib","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim vernetzen!",
+    currentPopup =  WA.ui.openPopup("popUp_Bib","In der Andersmacher Bibliothek findest Inspirationen, Coole Postkarten oder etwas rund um die Themen Andersmachen.\nViele Informationen sind auf DB CrowdWorx hinterlegt.\nWenn du den WissensHub noch nicht besucht hast, musst du einmal den Nutzungsbedingungen zustimmen.",
     [
         {
             label: "Danke!",
@@ -66,7 +68,7 @@ WA.room.area.onLeave("networking1").subscribe(() => {
 
  
 WA.room.area.onEnter("networking1").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_networking1","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim vernetzen!",
+    currentPopup =  WA.ui.openPopup("popUp_networking1","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim Vernetzen!",
     [
         {
             label: "Danke!",
@@ -83,7 +85,7 @@ WA.room.area.onLeave("networking1").subscribe(() => {
 
 
 WA.room.area.onEnter("networking2").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_networking2","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim vernetzen!",
+    currentPopup =  WA.ui.openPopup("popUp_networking2","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim Vernetzen!",
     [
         {
             label: "Danke!",
