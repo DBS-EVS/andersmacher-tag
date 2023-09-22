@@ -16,7 +16,7 @@ var re=Object.defineProperty,oe=Object.defineProperties;var ie=Object.getOwnProp
 Erkunde unsere Umgebung mit deinem Avatar und besuche Impulse, Marktst\xE4nde, Workshops oder st\xF6bere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachenden im Konzern!
 `;function f(){A!==void 0&&(A.close(),A=void 0)}WA.room.onLeaveLayer("start_zone").subscribe(()=>{f()});WA.room.area.onEnter("bib").subscribe(()=>{A=WA.ui.openPopup("popUp_Bib",`In der Andersmacher Bibliothek findest Inspirationen, Coole Postkarten oder etwas rund um die Themen Andersmachen.
 Viele Informationen sind auf DB CrowdWorx hinterlegt.
-Wenn du den WissensHub noch nicht besucht hast, musst du einmal den Nutzungsbedingungen zustimmen.`,[{label:"Danke!",callback:t=>{f()}}])});WA.room.area.onLeave("networking1").subscribe(()=>{f()});WA.room.area.onEnter("networking1").subscribe(()=>{A=WA.ui.openPopup("popUp_networking1",`Willkommen in unserer Vernetzungszone!
+Wenn du den WissensHub noch nicht besucht hast, musst du einmal den Nutzungsbedingungen zustimmen.`,[{label:"Danke!",callback:t=>{f()}}])});WA.room.area.onLeave("bib").subscribe(()=>{f()});WA.room.area.onEnter("networking1").subscribe(()=>{A=WA.ui.openPopup("popUp_networking1",`Willkommen in unserer Vernetzungszone!
 Lerne neue #andersMacher aus dem gesamten Konzerzn kennen und kn\xFCpfe spannende neue Kontake.
 Personen in diesem Bereich sind offen f\xFCr neue Kontakte, erste Gespr\xE4che,
  Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!
