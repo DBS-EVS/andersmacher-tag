@@ -14,7 +14,7 @@ var urlWorkshops ="https://forms.office.com/e/6TJFjRLc4D"
 var urlMarktstände ="https://forms.office.com/e/6TJFjRLc4D"
 
 var popUpStart = "popUpStart";
-var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachern im Konzern!\n";
+var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Impulse, Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachenden im Konzern!\n";
 var popUpEmail = "popUpEmail";
 var mailMsg = "Bingo? Sende uns deine Bilder um zu gewinnen!";
 var mailToEvs = "mailto:SendIn.Enterprise.VoIP.Services@deutschebahn.com?subject=WA-Mail";
@@ -45,6 +45,24 @@ WA.room.onLeaveLayer("start_zone").subscribe(() => {
     closePopUp();
 })
  
+
+WA.room.area.onEnter("bib").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_Bib","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim vernetzen!",
+    [
+        {
+            label: "Danke!",
+            callback: (popup => {
+                closePopUp();
+            })
+        }
+        ]);
+});
+
+WA.room.area.onLeave("networking1").subscribe(() => {
+    closePopUp();
+});
+
+
 
  
 WA.room.area.onEnter("networking1").subscribe(() => {

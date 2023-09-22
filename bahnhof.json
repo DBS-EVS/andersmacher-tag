@@ -4697,7 +4697,7 @@
                      "fontfamily":"Press Start 2P",
                      "halign":"center",
                      "pixelsize":35,
-                     "text":"andersMacher\nNetzwerken",
+                     "text":"Andersmacher\nNetzwerken",
                      "wrap":true
                     },
                  "type":"",
@@ -4717,7 +4717,7 @@
                      "fontfamily":"Press Start 2P",
                      "halign":"center",
                      "pixelsize":35,
-                     "text":"andersMacher\nNetzwerken",
+                     "text":"Andersmacher\nNetzwerken",
                      "wrap":true
                     },
                  "type":"",
@@ -4920,6 +4920,28 @@
                  "width":488,
                  "x":3262.66666666667,
                  "y":1268.72727272727
+                }, 
+                {
+                 "height":264,
+                 "id":170,
+                 "name":"popUp_Bib",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":488,
+                 "x":2134,
+                 "y":492
+                }, 
+                {
+                 "height":591.394,
+                 "id":171,
+                 "name":"bib",
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":1214.788,
+                 "x":1730.606,
+                 "y":367.303
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -5997,7 +6019,7 @@
          "y":0
         }],
  "nextlayerid":182,
- "nextobjectid":170,
+ "nextobjectid":172,
  "orientation":"orthogonal",
  "properties":[
         {
