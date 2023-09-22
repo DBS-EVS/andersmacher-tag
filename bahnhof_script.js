@@ -60,7 +60,7 @@ WA.room.area.onEnter("bib").subscribe(() => {
         ]);
 });
 
-WA.room.area.onLeave("networking1").subscribe(() => {
+WA.room.area.onLeave("bib").subscribe(() => {
     closePopUp();
 });
 
