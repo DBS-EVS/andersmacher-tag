@@ -54,7 +54,9 @@ WA.room.area.onEnter("bib").subscribe(() => {
         {
             label: "Danke!",
             callback: (popup => {
-                closePopUp();
+               currentPopup == "popUp_Bib";
+               currentPopup.close();
+               currentPopup = undefined;
             })
         }
         ]);
