@@ -227,6 +227,31 @@ WA.room.onLeaveLayer("ticket2_program").subscribe(() => {
     closePopUp();
 })
 
+WA.ui.actionBar.addButton({
+    id:"minimap",
+    type:"action",
+    imageSrc:"https://dbs-evs.github.io/andersmacher-tag/map_logo.png",
+    toolTip:"Minimap",
+    callback: async () => {
+        if (currentWebsite !== undefined) {
+            currentWebsite.close();
+            currentWebsite = undefined;
+            } else {
+                //currentWebsite = await WA.nav.openCoWebSite("../minimap.html",true);
+                WA.ui.modal.openModal({
+                  title: "Minimap",
+                  src: 'https://dbs-evs.github.io/andersmacher-tag/minimap.html',
+                  allow: "fullscreen",
+                  allowApi: true,
+                  position: "right",
+              });
+              }
+          }
+  })
+
+
+
+
 
 WA.onInit().then(async () => {
 	
