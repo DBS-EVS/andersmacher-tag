@@ -63,7 +63,9 @@ WA.room.area.onEnter("bib").subscribe(() => {
 });
 
 WA.room.area.onLeave("bib").subscribe(() => {
-    closePopUp();
+    currentPopup == "popUp_Bib";
+    currentPopup.close();
+    currentPopup = undefined;
 });
 
 WA.room.area.onEnter("artikel_1").subscribe(() => {
