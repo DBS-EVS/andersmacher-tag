@@ -5845,7 +5845,7 @@
                  "height":80,
                  "id":24,
                  "name":"silent-zone",
-                 "opacity":0.33,
+                 "opacity":0,
                  "properties":[
                         {
                          "name":"silent",
