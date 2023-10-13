@@ -66,8 +66,186 @@ WA.room.area.onLeave("bib").subscribe(() => {
     closePopUp();
 });
 
+WA.room.area.onEnter("artikel_1").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_Bib_artikel1","Lerne Methoden-Tipps und unsere Figurensammlung kennen!",
+    [
+        {
+            label: "Methoden-Tipps",
+            callback: (popup => {
+                WA.nav.openTab("https://ideen.app.db.de/IdeaManagement/List/23?page=1&itemsPerPage=40&category=d243a207-e63c-440d-a213-8e10edf0d906")
+            })
+        },
+        {
+            label: "Figurensammlung",
+            callback: (popup => {
+                WA.nav.openTab("https://ideen.app.db.de/IdeaManagement/List/23?page=1&itemsPerPage=40&category=c02acff6-19f9-4367-9e7e-893b7d556d19")
+            })
+        },
+        {
+            label: "Danke!",
+            callback: (popup => {
+               currentPopup == "popUp_Bib_artikel1";
+               currentPopup.close();
+               currentPopup = undefined;
+            })
+        },
+        
+        ]);
+});
+
+WA.room.area.onLeave("artikel_1").subscribe(() => {
+    closePopUp();
+});
+
+WA.room.area.onEnter("artikel_2").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_Bib_artikel2","Kennst du schon DB Zeichner?",
+    [
+        {
+            label: "DB Zeichner der Film",
+            callback: (popup => {
+                WA.nav.openTab("https://db-planet.deutschebahn.com/pages/db-zeichner-2/apps/content/db-zeichner-der-film")
+            })
+        },
+        {
+            label: "DB Zeichner Startseite",
+            callback: (popup => {
+                WA.nav.openTab("https://db-zeichner.training/")
+            })
+        },
+        {
+            label: "Danke!",
+            callback: (popup => {
+               currentPopup == "popUp_Bib_artikel2";
+               currentPopup.close();
+               currentPopup = undefined;
+            })
+        },
+        
+        ]);
+});
+
+WA.room.area.onLeave("artikel_2").subscribe(() => {
+    closePopUp();
+});
 
 
+WA.room.area.onEnter("artikel_3").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_Bib_artikel3","Lerne mehr über das Ideenmanagement",
+    [
+        {
+            label: "DB Ideenmanagement entdecken",
+            callback: (popup => {
+                WA.nav.openTab("https://db-planet.deutschebahn.com/pages/ideenmanagement-mitarbeiter/apps/content/ideen-einreichen")
+            })
+        },
+        {
+            label: "Anmeldung zum #andersmacher Newsletter",
+            callback: (popup => {
+                WA.nav.openTab("https://idm.newsletter.deutschebahn.com/f/236382-213061/")
+            })
+        },
+        {
+            label: "Danke!",
+            callback: (popup => {
+               currentPopup == "popUp_Bib_artikel3";
+               currentPopup.close();
+               currentPopup = undefined;
+            })
+        },
+        
+        ]);
+});
+
+WA.room.area.onLeave("artikel_3").subscribe(() => {
+    closePopUp();
+});
+
+WA.room.area.onEnter("artikel_4").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_Bib_artikel4","Neue Methoden gefragt? Jetzt einsteigen!",
+    [
+        {
+            label: "Facilation",
+            callback: (popup => {
+                WA.nav.openTab("https://db-planet.deutschebahn.com/pages/individuelle-methodische-begleitung/apps/blog/facilitation-2")
+            })
+        },
+        {
+            label: "Mein Fahrplan",
+            callback: (popup => {
+                WA.nav.openTab("https://db-planet.deutschebahn.com/pages/medien-und-kommunikationsdienste/apps/blog/unsere-neuigkeiten/view/1b23f75e-47cc-4dfc-a671-4888d14f73ce")
+            })
+        },
+        {
+            label: "Danke!",
+            callback: (popup => {
+               currentPopup == "popUp_Bib_artikel4";
+               currentPopup.close();
+               currentPopup = undefined;
+            })
+        },
+        
+        ]);
+});
+
+WA.room.area.onLeave("artikel_4").subscribe(() => {
+    closePopUp();
+});
+
+WA.room.area.onEnter("artikel_5").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_Bib_artikel5","Erfahre mehr über weitere #andersmacher im Konzern",
+    [
+        {
+            label: "Ralf als #andersmacher",
+            callback: (popup => {
+                WA.nav.openTab("https://db-planet.deutschebahn.com/pages/ideen-und-betriebliches-innovationsmanagement/apps/blog/unser-andersmacher-erzaehlt")
+            })
+        },
+        {
+            label: "Anmeldung zum #andersmacher Newsletter",
+            callback: (popup => {
+                WA.nav.openTab("https://idm.newsletter.deutschebahn.com/f/236382-213061/")
+            })
+        },
+        {
+            label: "Danke!",
+            callback: (popup => {
+               currentPopup == "popUp_Bib_artikel5";
+               currentPopup.close();
+               currentPopup = undefined;
+            })
+        },
+        
+        ]);
+});
+
+WA.room.area.onLeave("artikel_5").subscribe(() => {
+    closePopUp();
+});
+
+WA.room.area.onEnter("artikel_6").subscribe(() => {
+    currentPopup =  WA.ui.openPopup("popUp_Bib_artikel6","Innovationen sind dein Ding? Hier bleibt nichts unter dem Radat",
+    [
+        {
+            label: "Innovations-Radar entdecken",
+            callback: (popup => {
+                WA.nav.openTab("https://db-planet.deutschebahn.com/pages/individuelle-methodische-begleitung/apps/blog/neu-innovations-radar")
+            })
+        },
+        {
+            label: "Danke!",
+            callback: (popup => {
+               currentPopup == "popUp_Bib_artikel6";
+               currentPopup.close();
+               currentPopup = undefined;
+            })
+        },
+        
+        ]);
+});
+
+WA.room.area.onLeave("artikel_6").subscribe(() => {
+    closePopUp();
+});
  
 WA.room.area.onEnter("networking1").subscribe(() => {
     currentPopup =  WA.ui.openPopup("popUp_networking1","Willkommen in unserer Vernetzungszone!\nLerne neue #andersMacher aus dem gesamten Konzerzn kennen und knüpfe spannende neue Kontake.\nPersonen in diesem Bereich sind offen für neue Kontakte, erste Gespräche,\n Austausch zum andersMacherTag oder ihrem Aufgabenbereich im Konzern!\n\nViel Spaß beim Vernetzen!",
