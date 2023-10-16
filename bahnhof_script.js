@@ -69,6 +69,7 @@ WA.room.area.onLeave("bib").subscribe(() => {
 });
 
 WA.room.area.onEnter("artikel_1").subscribe(() => {
+    currentPopup.close();
     currentPopup =  WA.ui.openPopup("popUp_Bib_artikel1","Lerne Methoden-Tipps und unsere Figurensammlung kennen!",
     [
         {
@@ -100,6 +101,7 @@ WA.room.area.onLeave("artikel_1").subscribe(() => {
 });
 
 WA.room.area.onEnter("artikel_2").subscribe(() => {
+    currentPopup.close();
     currentPopup =  WA.ui.openPopup("popUp_Bib_artikel2","Kennst du schon DB Zeichner?",
     [
         {
@@ -132,6 +134,7 @@ WA.room.area.onLeave("artikel_2").subscribe(() => {
 
 
 WA.room.area.onEnter("artikel_3").subscribe(() => {
+    currentPopup.close();
     currentPopup =  WA.ui.openPopup("popUp_Bib_artikel3","Lerne mehr über das Ideenmanagement",
     [
         {
@@ -163,6 +166,7 @@ WA.room.area.onLeave("artikel_3").subscribe(() => {
 });
 
 WA.room.area.onEnter("artikel_4").subscribe(() => {
+    currentPopup.close();
     currentPopup =  WA.ui.openPopup("popUp_Bib_artikel4","Neue Methoden gefragt? Jetzt einsteigen!",
     [
         {
@@ -194,6 +198,7 @@ WA.room.area.onLeave("artikel_4").subscribe(() => {
 });
 
 WA.room.area.onEnter("artikel_5").subscribe(() => {
+    currentPopup.close();
     currentPopup =  WA.ui.openPopup("popUp_Bib_artikel5","Erfahre mehr über weitere #andersmacher im Konzern",
     [
         {
@@ -225,6 +230,7 @@ WA.room.area.onLeave("artikel_5").subscribe(() => {
 });
 
 WA.room.area.onEnter("artikel_6").subscribe(() => {
+    currentPopup.close();
     currentPopup =  WA.ui.openPopup("popUp_Bib_artikel6","Innovationen sind dein Ding? Hier bleibt nichts unter dem Radat",
     [
         {
