@@ -334,8 +334,9 @@ WA.room.area.onLeave("brunnen3").subscribe(() => {
 });
 
 
-WA.room.area.onEnter("workshoparea").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_workshop","Willkommen in der Workshop-Area!\nAn jeder Workshop-Zone findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbilde anschauen.\n Viel Spaß!",
+WA.room.onEnterLayer("popUpWorkshopArea").subscribe(() => {
+    console.log("entered popUpWorkshopArea");
+    currentPopup =  WA.ui.openPopup("popUp_workshop","Willkommen in der Workshop-Area!\nAn jeder Workshop-Zone findest du ein Schild zur dort stattfindenden Inhalt und Referenten! Alternativ kannst du dir unser Übersichtsbild anschauen.\n Viel Spaß!",
     [
         {
             label: "Übersicht Workshops",
@@ -344,11 +345,16 @@ WA.room.area.onEnter("workshoparea").subscribe(() => {
                 isCoWebSiteOpened = true;
                 closePopUp();
             })
-        }
-        ]);
+        },
+        {
+            label: "Schließen",
+            callback: (popup => {
+                closePopUp();
+            })
+        }]);
 });
 
-WA.room.area.onLeave("workshoparea").subscribe(() => {
+WA.room.onLeaveLayer("popUpWorkshopArea").subscribe(() => {
     closePopUp();
 })
 
