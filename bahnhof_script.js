@@ -1,10 +1,10 @@
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
-console.log("Script started successfully")
+console.log("Script started successfully");
 
 var currentPopup = undefined;
-var urlWorkshops ="https://forms.office.com/e/6TJFjRLc4D"
-var urlMarktstände ="https://forms.office.com/e/6TJFjRLc4D"
+var urlWorkshops ="https://forms.office.com/e/6TJFjRLc4D";
+var urlMarktstände ="https://forms.office.com/e/6TJFjRLc4D";
 
 var currentWebsite = undefined;
 
@@ -18,12 +18,57 @@ function closePopUp(){
     }
 }
 
+const feedbackPopUpArea = new Map ([
+    ["feedbackZone1", "popUpFeedback1"],
+    ["feedbackZone2", "popUpFeedback2"],
+    ["feedbackZone3", "popUpFeedback3"],
+    ["feedbackZone4", "popUpFeedback4"],
+    ["feedbackZone5", "popUpFeedback5"],
+    ["feedbackZone6", "popUpFeedback6"],
+    ["feedbackZone7", "popUpFeedback7"],
+    ["feedbackZone8", "popUpFeedback8"],
+])
+
+var urlFeedback = "https://ideen.app.db.de/SurveyModule/index.php?r=survey/index&sid=798975";
+var msgFeedback = "Möchtest du uns Feedback geben?";
+var labelFbYes = "Na klar!";
+var labelFbNo = "Lieber nicht";
+
+// feedback sites
+for (let[popUpArea, popUpId] of feedbackPopUpArea.entries()) {
+    WA.room.area.onEnter(popUpArea).subscribe(() => {
+        currentPopup = WA.ui.openPopup(popUpId, msgFeedback, [
+            {
+                label: labelFbYes,
+                className: "primary",
+                callback: (popup) => {
+                    WA.nav.openTab(urlFeedback);
+                    popup.close();
+                    currentPopup = undefined;
+                }
+            },
+            {
+                label: labelFbNo,
+                callback: (popup) => {
+                    popup.close();
+                    currentPopup = undefined;
+                }
+            }
+        ])
+    })
+
+    WA.room.area.onLeave(popUpArea).subscribe(() => {
+        closePopUp();
+    })
+}
+
+
 WA.room.onLeaveLayer("start_zone").subscribe(() => {
     closePopUp();
 })
 
 WA.room.area.onEnter("bib").subscribe(() => {
-    currentPopup =  WA.ui.openPopup("popUp_Bib","In der Andersmacher Bibliothek findest Inspirationen, Coole Postkarten oder etwas rund um die Themen Andersmachen.\nViele Informationen sind auf DB CrowdWorx hinterlegt.\nWenn du den WissensHub noch nicht besucht hast, musst du einmal den Nutzungsbedingungen zustimmen.",
+    currentPopup =  WA.ui.openPopup("popUp_Bib","In der Andersmacher Bibliothek findest du Inspirationen, Coole Postkarten oder etwas rund um die Themen Andersmachen.\nViele Informationen sind auf DB CrowdWorx hinterlegt.\nWenn du den WissensHub noch nicht besucht hast, musst du einmal den Nutzungsbedingungen zustimmen.",
     [
         {
             label: "Danke!",
