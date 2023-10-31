@@ -21,7 +21,7 @@ for (let x of content.tafel.misc.links) {
     a.innerHTML = x.link.title;
     titleBarRight.appendChild(a);
 }
-titleBarRight.innerHTML += "<span class='logos'><img id='logo-0-0' class='logo' src='./station_sign_files/Logo.gif'></span>"
+titleBarRight.innerHTML += "<span class='logos'><img id='logo-0-0' class='logo' src='../../station_sign_files/Logo.gif'></span>"
 
 //append Tafel Header
 document.getElementById("tafelHeader")!.innerHTML = content.tafel.misc.header;
