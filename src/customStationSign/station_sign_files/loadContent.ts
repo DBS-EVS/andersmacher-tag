@@ -3,7 +3,7 @@ import {Root} from "./interface-declaration";
 
 (async() => { 
 //load json
-var content: Root = await fetch("../station_sign_files/content.json").then((response) => { 
+var content: Root = await fetch("../../station_sign_files/content.json").then((response) => { 
     return response.json().then((data) => {
         return data
         })
