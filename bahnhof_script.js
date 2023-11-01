@@ -63,7 +63,7 @@ for (let[popUpArea, popUpId] of feedbackPopUpArea.entries()) {
 }
 
 
-WA.room.onLeaveLayer("start").subscribe(() => {
+WA.room.onLeaveLayer("special-area/start").subscribe(() => {
     closePopUp();
 })
 
