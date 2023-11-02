@@ -322,10 +322,10 @@
                     14002, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     14002, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     14002, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 0, 14002, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 14002, 0, 14002, 0, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 0, 14002, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 14002, 0, 14002, 0, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 14002, 14002, 0, 0, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 14002, 0, 0, 14002, 14002, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002, 0, 14002, 14002, 14002, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14002,
@@ -382,7 +382,7 @@
                  "name":"colliding",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":150,
                  "x":0,
                  "y":0
@@ -1161,6 +1161,21 @@
                  "opacity":1,
                  "properties":[
                         {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-1"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
+                        {
                          "name":"startLayer",
                          "type":"bool",
                          "value":true
@@ -1257,6 +1272,21 @@
                  "name":"ws2",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-2"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
                         {
                          "name":"startLayer",
                          "type":"bool",
@@ -1355,6 +1385,21 @@
                  "opacity":1,
                  "properties":[
                         {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-3"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
+                        {
                          "name":"startLayer",
                          "type":"bool",
                          "value":true
@@ -1451,6 +1496,21 @@
                  "name":"ws4",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-4"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
                         {
                          "name":"startLayer",
                          "type":"bool",
@@ -1549,6 +1609,21 @@
                  "opacity":1,
                  "properties":[
                         {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-5"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
+                        {
                          "name":"startLayer",
                          "type":"bool",
                          "value":true
@@ -1645,6 +1720,21 @@
                  "name":"ws6",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-6"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
                         {
                          "name":"startLayer",
                          "type":"bool",
@@ -1743,6 +1833,21 @@
                  "opacity":1,
                  "properties":[
                         {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-7"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
+                        {
                          "name":"startLayer",
                          "type":"bool",
                          "value":true
@@ -1839,6 +1944,21 @@
                  "name":"ws8",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-8"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
                         {
                          "name":"startLayer",
                          "type":"bool",
@@ -1937,6 +2057,21 @@
                  "opacity":1,
                  "properties":[
                         {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-9"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
+                        {
                          "name":"startLayer",
                          "type":"bool",
                          "value":true
@@ -2034,6 +2169,21 @@
                  "opacity":1,
                  "properties":[
                         {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-10"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
+                        {
                          "name":"startLayer",
                          "type":"bool",
                          "value":true
@@ -2130,6 +2280,21 @@
                  "name":"ws11",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Workshop-11"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"moderator"
+                        }, 
                         {
                          "name":"startLayer",
                          "type":"bool",
@@ -4176,276 +4341,6 @@
          "name":"jitsi",
          "objects":[
                 {
-                 "height":753,
-                 "id":185,
-                 "name":"workshop5",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-5"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":397,
-                 "x":19,
-                 "y":628
-                }, 
-                {
-                 "height":331,
-                 "id":186,
-                 "name":"workshop3",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-3"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":613,
-                 "x":508.5,
-                 "y":630.5
-                }, 
-                {
-                 "height":331,
-                 "id":187,
-                 "name":"workshop2",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-2"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":358,
-                 "x":1214.5,
-                 "y":630.5
-                }, 
-                {
-                 "height":329,
-                 "id":188,
-                 "name":"workshop1",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-1"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":358,
-                 "x":1214,
-                 "y":1051.5
-                }, 
-                {
-                 "height":329,
-                 "id":189,
-                 "name":"workshop4",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-4"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":613,
-                 "x":509.5,
-                 "y":1051.5
-                }, 
-                {
-                 "height":331,
-                 "id":191,
-                 "name":"workshop6",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-6"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":397,
-                 "x":20.5,
-                 "y":1656.25
-                }, 
-                {
-                 "height":331,
-                 "id":192,
-                 "name":"workshop8",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-8"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":613,
-                 "x":510,
-                 "y":1658.75
-                }, 
-                {
-                 "height":327.666666666667,
-                 "id":194,
-                 "name":"workshop10",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-10"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":358,
-                 "x":1215.5,
-                 "y":1659.75
-                }, 
-                {
-                 "height":329,
-                 "id":195,
-                 "name":"workshop9",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-9"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":613,
-                 "x":511,
-                 "y":2079.75
-                }, 
-                {
-                 "height":329,
-                 "id":196,
-                 "name":"workshop7",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-7"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":397,
-                 "x":20,
-                 "y":2080.75
-                }, 
-                {
                  "height":181.666666666667,
                  "id":197,
                  "name":"tikibar",
@@ -4466,33 +4361,6 @@
                  "width":270.333333333333,
                  "x":4073,
                  "y":385.5
-                }, 
-                {
-                 "height":327.667,
-                 "id":207,
-                 "name":"workshop11",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": true, \"startWithAudioMuted\": true, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Workshop-11"
-                        }, 
-                        {
-                         "name":"jitsiRoomAdminTag",
-                         "type":"string",
-                         "value":"moderator"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":358,
-                 "x":1211.66666666667,
-                 "y":2077.49983333333
                 }],
          "opacity":1,
          "type":"objectgroup",
