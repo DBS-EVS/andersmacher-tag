@@ -1051,7 +1051,7 @@
                         {
                          "name":"jitsiRoomAdminTag",
                          "type":"string",
-                         "value":"speaker"
+                         "value":"moderator"
                         }, 
                         {
                          "name":"startLayer",
