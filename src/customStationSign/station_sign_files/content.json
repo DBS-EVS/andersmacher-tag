@@ -13,16 +13,6 @@
         "content": [
             {"eintrag": {
                 "col1":{
-                    "zeit":"09:30 - 10:00",
-                    "zugnummer":"8. November"
-                },
-                "col2": "Kennenlernen des etwas anderen Tools DB WorkAdventure",
-                "col3":{
-                    "title":"Hauptbühne"
-                }
-            }},
-            {"eintrag": {
-                "col1":{
                     "zeit":"10:00 - 10:15",
                     "zugnummer":"8. November"
                 },

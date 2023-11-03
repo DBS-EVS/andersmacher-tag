@@ -1,7 +1,7 @@
 {
     "tafel": {
         "misc": {
-            "header": "Agenda: Andersmachertag",
+            "header": "Agenda: AndersmacherTag",
             "gelbeLeiste":{
                 "col1":"Zeit",
                 "col2":"Ziel",
@@ -13,21 +13,10 @@
         "content": [
             {"eintrag": {
                 "col1":{
-                    "zeit":"09:30 - 10:00",
-                    "zugnummer":"8. November"
-                },
-                "col2": "Kennenlernen des etwas anderen Tools db.de/workadventure",
-                "col3":{
-                    "to":"https://coremeet.workadventu.re/",
-                    "title":"Hauptbühne"
-                }
-            }},
-            {"eintrag": {
-                "col1":{
                     "zeit":"10:00 - 10:15",
                     "zugnummer":"8. November"
                 },
-                "col2": "Willkommen",
+                "col2": "Willkommen zum 3. AndersmacherTag",
                 "col3":{
                     "to":"https://coremeet.workadventu.re/",
                     "title":"Hauptbühne"
@@ -82,10 +71,10 @@
                     "zeit":"14:45 - 15:15",
                     "zugnummer":"8. November"
                 },
-                "col2": "Marktplatz",
+                "col2": "Marktstände",
                 "col3":{
                     "to":"https://coremeet.workadventu.re/",
-                    "title":"Markt"
+                    "title":"Außenbereich"
                 }
             }},
             {"eintrag": {
@@ -93,7 +82,7 @@
                     "zeit":"15:15 - 15:30",
                     "zugnummer":"8. November"
                 },
-                "col2": "Tagesabschluss",
+                "col2": "Tagesabschluss mit Feedback",
                 "col3":{
                     "to":"https://coremeet.workadventu.re/",
                     "title":"Hauptbühne"

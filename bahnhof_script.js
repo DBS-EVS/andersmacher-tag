@@ -9,7 +9,7 @@ var urlMarktstände ="https://forms.office.com/e/6TJFjRLc4D";
 var currentWebsite = undefined;
 
 var popUpStart = "popUpStart";
-var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar und besuche Impulse, Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachenden im Konzern!\n";
+var startMsg = "Willkommen beim Andersmachertag 2023!\n\nErkunde unsere Umgebung mit deinem Avatar (du bewegst dich mit den PFEILTASTEN) und besuche Impulse, Marktstände, Workshops oder stöbere in unsere Andersmacher-Bibliothek! Nutze die Chance und #VernetzeDich in der Netzwerkzone mit weiteren Andersmachenden im Konzern!\n";
 
 function closePopUp(){
     if (currentPopup !== undefined) {
