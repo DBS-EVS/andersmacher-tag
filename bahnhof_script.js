@@ -175,7 +175,7 @@ WA.room.area.onEnter("artikel_4").subscribe(() => {
     currentPopup =  WA.ui.openPopup("popUp_Bib_artikel4","Neue Methoden gefragt? Jetzt einsteigen!",
     [
         {
-            label: "Facilation",
+            label: "Facilitation",
             callback: (popup => {
                 WA.nav.openTab("https://db-planet.deutschebahn.com/pages/individuelle-methodische-begleitung/apps/blog/facilitation-2")
             })
